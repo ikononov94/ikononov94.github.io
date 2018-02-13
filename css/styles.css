@@ -90,8 +90,8 @@ body {
   .about-me__description {
     font-size: 1.1rem;
     position: static;
-    width: 100%;
-    margin-top: 40px;
+    padding-top: 40px;
+    margin: 0 auto;
   }
   .about-me__photo {
     display: inline-block;
@@ -111,6 +111,7 @@ body {
     height: 550px;
   }
   .about-me__description {
+    width: 100%;
     font-size: 1rem;
   }
   .about-me__name {
@@ -220,25 +221,26 @@ body {
 }
 @media (min-width: 550px) and (max-width: 949px) {
   .section__title {
-    margin-left: 20px;
+    margin-left: 32px;
+    margin-right: 32px;
   }
   .block-freedom {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 32px;
     -ms-flex: 3 1;
         flex: 3 1;
   }
   .block-equality {
-    margin: 0 20px 0 10px;
+    margin: 0 32px 0 10px;
     -ms-flex: 2 1;
         flex: 2 1;
   }
   .block-placement {
-    margin: 0 20px 0 10px;
+    margin: 0 32px 0 10px;
     -ms-flex: 3 1;
         flex: 3 1;
   }
   .block-brotherhood {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 32px;
     -ms-flex: 2 1;
         flex: 2 1;
   }
@@ -253,6 +255,7 @@ body {
   .section__title {
     font-size: 2rem;
     margin-left: 20px;
+    margin-right: 20px;
   }
   .block-freedom,
   .block-equality,
@@ -280,6 +283,7 @@ body {
 }
 .jobs-block__title {
   font-size: 24px;
+  margin-right: 20px;
 }
 .jobs-block__slider {
   position: relative;
@@ -297,31 +301,31 @@ body {
   transition: opacity ease-in-out 0.5s;
 }
 .block1-slide1 {
-  background: url("../images/blocks/b-jobs/b-jobs/webcom1_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/webcom1_704px.jpg") no-repeat;
 }
 .block1-slide2 {
-  background: url("../images/b-jobs/b-jobs/webcom2_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/webcom2_704px.jpg") no-repeat;
 }
 .block1-slide3 {
-  background: url("../images/b-jobs/b-jobs/webcom3_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/webcom3_704px.jpg") no-repeat;
 }
 .block1-slide4 {
-  background: url("../images/b-jobs/b-jobs/webcom4_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/webcom4_704px.jpg") no-repeat;
 }
 .block2-slide1 {
-  background: url("../images/b-jobs/b-jobs/anvanto1_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/anvanto1_704px.jpg") no-repeat;
 }
 .block2-slide2 {
-  background: url("../images/b-jobs/b-jobs/anvanto2_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/anvanto2_704px.jpg") no-repeat;
 }
 .block2-slide3 {
-  background: url("../images/b-jobs/b-jobs/anvanto3_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/anvanto3_704px.jpg") no-repeat;
 }
 .block3-slide1 {
-  background: url("../images/b-jobs/b-jobs/game1_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/game1_704px.jpg") no-repeat;
 }
 .block3-slide2 {
-  background: url("../images/b-jobs/b-jobs/game2_584px.jpg") no-repeat;
+  background: url("../images/b-jobs/b-jobs/game2_704px.jpg") no-repeat;
 }
 .block1-slide1,
 .block1-slide2,
@@ -332,6 +336,7 @@ body {
 .block2-slide3,
 .block3-slide1,
 .block3-slide2 {
+  background-size: cover;
   cursor: pointer;
   box-shadow: 0 0 40px #000;
 }
@@ -463,15 +468,6 @@ body {
   }
 }
 @media (min-width: 768px) and (max-width: 970px) {
-  .section__title {
-    margin-left: 20px;
-  }
-  .jobs-block-even .jobs-block__about,
-  .jobs-block__about {
-    -ms-flex-direction: row;
-        flex-direction: row;
-    margin: 0 20px;
-  }
   .jobs-block-even__pagination-3_horizontal {
     top: 370px;
   }
@@ -495,48 +491,62 @@ body {
   .slide {
     width: 704px;
   }
-  .block1-slide1 {
-    background: url("../images/b-jobs/b-jobs/webcom1_704px.jpg") no-repeat;
+}
+@media (min-width: 550px) and (max-width: 970px) {
+  .jobs-block-even .jobs-block__about,
+  .jobs-block__about {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    margin: 0 32px;
   }
-  .block1-slide2 {
-    background: url("../images/b-jobs/b-jobs/webcom2_704px.jpg") no-repeat;
-  }
-  .block1-slide3 {
-    background: url("../images/b-jobs/b-jobs/webcom3_704px.jpg") no-repeat;
-  }
-  .block1-slide4 {
-    background: url("../images/b-jobs/b-jobs/webcom4_704px.jpg") no-repeat;
-  }
-  .block2-slide1 {
-    background: url("../images/b-jobs/b-jobs/anvanto1_704px.jpg") no-repeat;
-  }
-  .block2-slide2 {
-    background: url("../images/b-jobs/b-jobs/anvanto2_704px.jpg") no-repeat;
-  }
-  .block2-slide3 {
-    background: url("../images/b-jobs/b-jobs/anvanto3_704px.jpg") no-repeat;
-  }
-  .block3-slide1 {
-    background: url("../images/b-jobs/b-jobs/game1_704px.jpg") no-repeat;
-  }
-  .block3-slide2 {
-    background: url("../images/b-jobs/b-jobs/game2_704px.jpg") no-repeat;
+}
+@media (max-width: 549px) {
+  .jobs-block-even .jobs-block__about,
+  .jobs-block__about {
+    -ms-flex-direction: row;
+        flex-direction: row;
+    margin: 0 20px;
   }
 }
 @media (max-width: 767px) {
   .jobs-block__about {
-    margin: 0 20px;
     -ms-flex-direction: column;
         flex-direction: column;
   }
   .jobs-block-even .jobs-block__about {
-    margin: 0 20px;
     -ms-flex-direction: column;
         flex-direction: column;
   }
   .jobs-block__about-bottom {
     margin-top: 20px;
   }
+}
+@media (min-width: 550px) and (max-width: 767px) {
+  .jobs-block__pagination-4_horizontal {
+    top: 290px;
+  }
+  .jobs-block__pagination-2_horizontal {
+    top: 255px;
+  }
+  .jobs-block-even__pagination-3_horizontal {
+    top: 235px;
+  }
+  .jobs-block__slider {
+    width: 490px;
+    height: 230px;
+    margin-top: 20px;
+    left: 50%;
+    margin-left: -245px;
+  }
+  .jobs-block__slides {
+    width: 490px;
+    height: 220px;
+  }
+  .slide {
+    width: 490px;
+  }
+}
+@media (max-width: 549px) {
   .jobs-block__pagination-4_horizontal {
     top: 220px;
   }
@@ -559,33 +569,6 @@ body {
   }
   .slide {
     width: 304px;
-  }
-  .block1-slide1 {
-    background: url("../images/b-jobs/b-jobs/webcom1_304px.jpg") no-repeat;
-  }
-  .block1-slide2 {
-    background: url("../images/b-jobs/b-jobs/webcom2_304px.jpg") no-repeat;
-  }
-  .block1-slide3 {
-    background: url("../images/b-jobs/b-jobs/webcom3_304px.jpg") no-repeat;
-  }
-  .block1-slide4 {
-    background: url("../images/b-jobs/b-jobs/webcom4_304px.jpg") no-repeat;
-  }
-  .block2-slide1 {
-    background: url("../images/b-jobs/b-jobs/anvanto1_304px.jpg") no-repeat;
-  }
-  .block2-slide2 {
-    background: url("../images/b-jobs/b-jobs/anvanto2_304px.jpg") no-repeat;
-  }
-  .block2-slide3 {
-    background: url("../images/b-jobs/b-jobs/anvanto3_304px.jpg") no-repeat;
-  }
-  .block3-slide1 {
-    background: url("../images/b-jobs/b-jobs/game1_304px.jpg") no-repeat;
-  }
-  .block3-slide2 {
-    background: url("../images/b-jobs/b-jobs/game2_304px.jpg") no-repeat;
   }
 }
 .contacts {
@@ -705,7 +688,7 @@ body {
     display: flex;
     -ms-flex-direction: row;
         flex-direction: row;
-    margin: 0 20px 20px 20px;
+    margin: 0 32px 20px 32px;
   }
   .contacts-block__info-description {
     -ms-flex: 2 1;
@@ -722,7 +705,7 @@ body {
     display: none;
   }
   .contacts-block__form {
-    margin: 0 20px;
+    margin: 0 32px;
   }
 }
 @media (max-width: 549px) {
